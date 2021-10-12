@@ -47,6 +47,7 @@ spec:
             containerPort: 9999
             protocol: TCP
         command:
+          - --ui-message='Welcome to Flux'
           - ./podinfo
           - --port=9898
           - --port-metrics=9797
